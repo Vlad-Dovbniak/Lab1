@@ -17,7 +17,7 @@ const Header = ({ theme, toggleTheme }) => {
 
       <div className="relative z-10">
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2 pr-12 md:pr-0">
-          Vladyslav Dovbniak
+          Vladyslav Dovbniak 💻
         </h1>
         <p className="text-blue-300 font-medium text-lg mb-6 tracking-wide">
           Place of birth: Ukraine <span className="mx-2 text-slate-500">|</span> Nationality: Ukrainian
