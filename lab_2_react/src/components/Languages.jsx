@@ -15,7 +15,7 @@ const Languages = () => {
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
             <span className="text-lg font-bold text-slate-800">Ukrainian</span>
             <span className="mt-2 sm:mt-0 px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full inline-block w-max">
-              Native / Mother tongue
+              Native
             </span>
           </div>
         </div>
@@ -38,12 +38,12 @@ const Languages = () => {
             
             <div className="bg-white p-3 rounded border border-slate-200 text-center shadow-sm">
               <span className="block text-xs text-slate-500 uppercase tracking-wider mb-1 font-semibold">Speaking</span>
-              <span className="text-xl font-bold text-blue-600">B1</span>
+              <span className="text-xl font-bold text-blue-600">B2</span>
             </div>
             
             <div className="bg-white p-3 rounded border border-slate-200 text-center shadow-sm">
               <span className="block text-xs text-slate-500 uppercase tracking-wider mb-1 font-semibold">Writing</span>
-              <span className="text-xl font-bold text-blue-600">B1</span>
+              <span className="text-xl font-bold text-blue-600">B2</span>
             </div>
           </div>
         </div>

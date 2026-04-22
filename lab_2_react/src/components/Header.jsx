@@ -1,12 +1,22 @@
-const Header = () => {
+// Тепер компонент приймає props з App.jsx
+const Header = ({ theme, toggleTheme }) => {
   return (
     <header className="max-w-4xl mx-auto mt-12 mb-8 p-10 bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl shadow-xl text-center md:text-left text-white relative overflow-hidden">
       
       {/* Декоративний елемент фону (світіння) */}
       <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-600 rounded-full mix-blend-screen filter blur-[50px] opacity-40"></div>
       
+      {/* Кнопка перемикання теми (додана сюди, з високим z-index) */}
+      <button 
+        onClick={toggleTheme}
+        className="absolute top-6 right-6 md:top-8 md:right-8 z-20 text-2xl md:text-3xl hover:scale-110 transition-all bg-white/10 hover:bg-white/20 p-2 md:p-3 rounded-full shadow-lg backdrop-blur-sm border border-white/5"
+        title="Змінити тему"
+      >
+        {theme === 'light' ? '🌙' : '☀️'}
+      </button>
+
       <div className="relative z-10">
-        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">
+        <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-2 pr-12 md:pr-0">
           Vladyslav Dovbniak
         </h1>
         <p className="text-blue-300 font-medium text-lg mb-6 tracking-wide">
