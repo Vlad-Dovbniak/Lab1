@@ -1,0 +1,70 @@
+/* ── Dark mode overrides ── */
+body.dark-mode {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+body.dark-mode section,
+body.dark-mode #site-header ~ main section,
+body.dark-mode #reviews {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #e2e8f0;
+}
+
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode p,
+body.dark-mode li {
+  color: #cbd5e1 !important;
+}
+
+body.dark-mode .bg-slate-50 {
+  background-color: #273549 !important;
+  border-color: #334155 !important;
+}
+
+body.dark-mode .bg-white {
+  background-color: #1e293b !important;
+}
+
+body.dark-mode footer {
+  border-color: #334155;
+}
+
+body.dark-mode footer p,
+body.dark-mode footer span {
+  color: #94a3b8 !important;
+}
+
+body.dark-mode #contact-modal .bg-white {
+  background-color: #1e293b !important;
+}
+
+body.dark-mode #contact-modal input,
+body.dark-mode #contact-modal textarea {
+  background-color: #0f172a;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+body.dark-mode #contact-modal h2,
+body.dark-mode #contact-modal label {
+  color: #f1f5f9 !important;
+}
+
+/* ── Skill tag hover (pure CSS, no JS needed) ── */
+.skill-tag:hover {
+  background-color: #3b82f6 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transform: translateY(-4px);
+}
+
+/* ── Timeline dot hover via group ── */
+.group:hover .timeline-dot {
+  background-color: #3b82f6 !important;
+}
